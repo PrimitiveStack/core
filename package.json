@@ -5,19 +5,17 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.cts",
+  "main": "./dist/Result.cjs",
+  "module": "./dist/Result.js",
+  "types": "./dist/Result.d.cts",
   "exports": {
-    ".": {
-      "types": {
-        "import": "./dist/index.d.ts",
-        "require": "./dist/index.d.cts",
-        "default": "./dist/index.d.cts"
-      },
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs",
-      "default": "./dist/index.cjs"
+    "./Nil": {
+      "import": "./dist/Nil.js",
+      "require": "./dist/Nil.cjs"
+    },
+    "./Result": {
+      "import": "./dist/Result.js",
+      "require": "./dist/Result.cjs"
     },
     "./package.json": "./package.json"
   },

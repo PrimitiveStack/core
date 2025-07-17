@@ -31,8 +31,8 @@ export class Err<E> {
     throw this.error;
   }
 
-  get unwrapped(): never {
-    throw new Error("This value is an error and can't be unwrapped.");
+  get unwrapped() {
+    return this.error;
   }
 }
 

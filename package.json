@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "tsdown",
-    "release:patch": "pnpm version patch --force && git add . && git commit && tsdown &&  && pnpm publish",
+    "release:patch": "git add . && git commit && pnpm version patch && git add . && git commit && tsdown && pnpm publish",
     "dev": "tsdown --watch"
   },
   "dependencies": {

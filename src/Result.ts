@@ -1,5 +1,5 @@
 import { toPairs } from 'ramda';
-import { type UnknownRecord, type Simplify, type Promisable } from 'type-fest';
+import type { UnknownRecord, Simplify, Promisable } from 'type-fest';
 
 export class Ok<T> {
   readonly isOk = true;

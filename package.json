@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "tsdown",
+    "release": "tsdown && pnpm run publish",
     "dev": "tsdown --watch"
   },
   "dependencies": {

@@ -11,9 +11,6 @@ importers:
       ramda:
         specifier: ^0.31.3
         version: 0.31.3
-      type-fest:
-        specifier: ^4.41.0
-        version: 4.41.0
     devDependencies:
       '@types/ramda':
         specifier: ^0.30.2
@@ -21,6 +18,9 @@ importers:
       tsdown:
         specifier: latest
         version: 0.12.9(typescript@5.8.3)
+      type-fest:
+        specifier: ^4.41.0
+        version: 4.41.0
       typescript:
         specifier: 5.8.3
         version: 5.8.3

@@ -3,7 +3,8 @@
   "version": "0.0.7",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "node_modules"
   ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",

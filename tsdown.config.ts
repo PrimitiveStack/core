@@ -1,10 +1,3 @@
-import { defineConfig } from 'tsdown';
+import config from "@primitivestack/config/tsdown.config.ts"
 
-export default defineConfig({
-  entry: ['./src/index.ts'],
-  platform: 'neutral',
-  dts: true,
-  format: ['cjs', 'esm'],
-  exports: true,
-  unbundle: true,
-});
+export default config

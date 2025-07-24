@@ -1,22 +1,5 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "lib": [
-      "es2023"
-    ],
-    "moduleDetection": "force",
-    "module": "preserve",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "strict": true,
-    "noUnusedLocals": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-    "skipLibCheck": true
-  },
+  "extends": "@primitivestack/config/tsconfig.json",
   "include": [
     "src"
   ]

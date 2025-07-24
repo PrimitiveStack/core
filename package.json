@@ -24,6 +24,7 @@
     "ramda": "^0.31.3"
   },
   "devDependencies": {
+    "@primitivestack/config": "0.0.1",
     "@types/ramda": "^0.30.2",
     "tsdown": "latest",
     "typescript": "5.8.3",

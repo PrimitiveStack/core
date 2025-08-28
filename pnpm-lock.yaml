@@ -16,8 +16,8 @@ importers:
         specifier: 2.2.2
         version: 2.2.2
       '@primitivestack/config':
-        specifier: 0.0.1
-        version: 0.0.1
+        specifier: 0.0.2
+        version: 0.0.2
       '@types/ramda':
         specifier: ^0.30.2
         version: 0.30.2
@@ -139,8 +139,8 @@ packages:
   '@oxc-project/types@0.77.0':
     resolution: {integrity: sha512-iUQj185VvCPnSba+ltUV5tVDrPX6LeZVtQywnnoGbe4oJ1VKvDKisjGkD/AvVtdm98b/BdsVS35IlJV1m2mBBA==}
 
-  '@primitivestack/config@0.0.1':
-    resolution: {integrity: sha512-RDZIvcfiBhwQVCIKOvbGuK/gF8i6jclI3RkhkejjA6gnWaplr3pg+aMM9tQutbI949Zzsi5EnO/ZKdYwaHZMlg==}
+  '@primitivestack/config@0.0.2':
+    resolution: {integrity: sha512-6gu8bvFn5Pkmkxk7x1b+y/V4zkpGFL0dMslPlCLf9UGZ1g10b/R1T6ZSmJrfIvfh54paOA2cLunNk+pk5seYGg==}
 
   '@quansync/fs@0.1.3':
     resolution: {integrity: sha512-G0OnZbMWEs5LhDyqy2UL17vGhSVHkQIfVojMtEWVenvj0V5S84VBgy86kJIuNsGDp2p7sTKlpSIpBUWdC35OKg==}
@@ -493,7 +493,7 @@ snapshots:
 
   '@oxc-project/types@0.77.0': {}
 
-  '@primitivestack/config@0.0.1': {}
+  '@primitivestack/config@0.0.2': {}
 
   '@quansync/fs@0.1.3':
     dependencies:

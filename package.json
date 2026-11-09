@@ -16,8 +16,8 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"build": "tsdown",
-		"dev": "tsdown --watch",
+		"build": "bun --bun tsdown",
+		"dev": "bun --bun tsdown --watch",
 		"test": "bun test && bun run test:types",
 		"test:types": "tstyche"
 	},
